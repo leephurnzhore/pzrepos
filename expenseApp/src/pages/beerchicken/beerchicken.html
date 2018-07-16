@@ -1,0 +1,49 @@
+<ion-content padding id="page4">
+  <img src="assets/img/beercanchicken.png" style="display:block;width:100%;height:auto;margin-left:auto;margin-right:auto;" />
+  <div class="spacer" style="width:300px;height:52px;" id="beerChicken-spacer4"></div>
+  <div id="beerChicken-markdown11" style="text-align:center;" class="show-list-numbers-and-dots">
+    <p style="color:#000000;font-size:24px;">
+      Beer Can Chicken
+    </p>
+  </div>
+  <div id="beerChicken-markdown12" style="text-align:center;" class="show-list-numbers-and-dots">
+    <p style="color:#000000;">
+      Roasted whole chicken, roasted vegetables(Prep time is approximately 40 minutes)
+    </p>
+  </div>
+  <form id="beerChicken-form5">
+    <ion-item id="beerChicken-textarea5">
+      <ion-label>
+        Add a note ( extra sauce, no oinions, etc)
+      </ion-label>
+      <ion-textarea placeholder=""></ion-textarea>
+    </ion-item>
+
+    <!-- <ion-row>
+      <ion-item> -->
+        <p>
+            <button id="minus" (click)="decrement()">-</button>
+            <ion-input [(ngModel)]="value" [ngModelOptions]="{standalone: true}"></ion-input>
+            <button id="plus" (click)="increment()">+</button>
+        </p>
+       
+      <!-- </ion-item>
+  </ion-row> -->
+    <!-- <ion-item id="minus" (click)="decrement()">
+      <ion-thumbnail>
+      -
+     </ion-thumbnail>
+  
+    </ion-item> -->
+
+
+ <!-- <ion-item id="plus" (click)="increment()">
+  <ion-thumbnail >
+ +
+ </ion-thumbnail> -->
+
+
+<!-- </ion-item> -->
+<button id="addtocartbutton" ion-button color="positive" blocktype="submit" (click)="submit()">Add to Cart</button>
+  </form>
+</ion-content>
